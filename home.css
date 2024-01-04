@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    font-family: 'Nunito Sans';
+    height: 100vh;
+}
+
+.home{
+ 
+    display: flex;
+}
+.homeimg{
+    width:50%;
+    height: 100%;
+    object-fit: fill;
+}
+.home1{
+    position: absolute;
+    left:65%;
+    top:10%;
+}
+#see{
+    font-size: 20px;
+    line-height: 21.82px;
+    font-weight: 500;
+}
+#sign{
+    text-align: center;
+    font-size: 18px;
+    color: #A1A1A1;
+    font-weight: 550;
+    line-height: 16.37px;
+}
+.logs{
+    display: grid;
+}
+label{
+    font-weight: 600;
+    font-size: 16px;
+    color: #828282;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+input{
+    height: 20px;
+    border-radius: 6px;
+    padding: 14px 10px 12px 15px;
+    border: 1px solid #DED2D9;
+    font-size: 16px;
+    color: #E0E0E0;
+    font-weight: 400;
+}
+.google-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #E8E8E8;
+}
+
+.google-logo {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+span {
+    font-size: 16px;
+    color: #828282;
+    font-weight: 600;
+}
+.remember{
+   display: flex;
+}
+.forgot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+h4{
+    padding: 0;
+    margin: 0;
+    color: #A1A1A1;
+    font-weight: 400;
+}
+#check{
+    height: 15px;
+    margin:3px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#for{
+    font-weight: 600;
+    color: #7F265B;
+    cursor: pointer;
+}
+button{
+    width: 420px;
+    height: 50px;
+    border-radius: 6px;
+    padding: 13px 10px 12px 10px;
+    background-color: #7F265B;
+    color: white;
+    border: none;
+    font-size: 18px;
+    line-height: 24.55px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 18px;
+    text-align: center;
+    color:#828282;
+    font-weight: 500;
+    margin-top: 25%;
+}
+#create{
+    color: #7F265B;
+    cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+    .home1{
+        position: absolute;
+        left:65%;
+        top:5%
+    }
+    .img1{
+        height: 40px;
+    }
+   
+    button{
+        height: 35px;
+        padding: 0;
+        font-size: 16px;
+    }
+    input{
+        height: 10px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    #see{
+        font-size: 16px;
+    }
+    #sign{
+        font-size: 16px;
+    }
+    h2{
+        margin-top: 8%;
+    }
+}
+
+@media (max-width:991px) {
+    .homeimg{
+        display: none;
+    }
+    .home1{
+       left: 0;
+       top:15%;
+       margin-left: 7px;
+    }
+    button{
+        width: 400px;
+    }
+    .img1{
+        display: grid;
+        place-items: center
+    }
+
+    h1{
+        text-align: center;
+    }
+    #see{
+        text-align: center;
+    }
+}
